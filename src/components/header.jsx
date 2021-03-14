@@ -7,6 +7,12 @@ const Header = () => {
 
   function handleMobileMenuToggle() {
     setMenuToggle(!toggleMobileMenu)
+    handleScrollBarToggle()
+  }
+
+  function handleScrollBarToggle() {
+    if (toggleMobileMenu) document.body.style.overflow = "hidden"
+    else document.body.style.overflow = "auto"
   }
 
   return (
