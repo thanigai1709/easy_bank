@@ -145,7 +145,7 @@ const IndexPage = () => (
         <div className="article__title">
           <h2
             data-sal="slide-up"
-            data-sal-delay="0"
+            data-sal-delay="100"
             data-sal-easing="ease"
             data-sal-duration="800"
           >
