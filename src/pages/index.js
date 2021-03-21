@@ -22,27 +22,64 @@ const IndexPage = () => (
       <div className="container">
         <div className="hero__image"></div>
         <div className="hero__text container--pall">
-          <h1>Next generation digital banking</h1>
-          <p>
+          <h1
+            data-sal="slide-up"
+            data-sal-delay="100"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
+            Next generation digital banking
+          </h1>
+          <p
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <Link className="cta-btn">Request Invite</Link>
+          <div
+            data-sal="slide-up"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
+            <Link className="cta-btn">Request Invite</Link>
+          </div>
         </div>
       </div>
     </section>
     <section className="feature">
       <div className="container container--pall">
         <div className="feature__text">
-          <h2>Why choose Easybank?</h2>
-          <p>
+          <h2
+            data-sal="slide-up"
+            data-sal-delay="100"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
+            Why choose Easybank?
+          </h2>
+          <p
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
           </p>
         </div>
         <div className="feature__row">
-          <div className="feature__item">
+          <div
+            className="feature__item"
+            data-sal="slide-up"
+            data-sal-delay="100"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
             <div className="feature__icon">
               <img src={Icon1} alt="banking"></img>
             </div>
@@ -52,7 +89,13 @@ const IndexPage = () => (
               your finances wherever you are in the world.
             </div>
           </div>
-          <div className="feature__item">
+          <div
+            className="feature__item"
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
             <div className="feature__icon">
               <img src={Icon2} alt="banking"></img>
             </div>
@@ -62,7 +105,13 @@ const IndexPage = () => (
               notifications when you’re close to hitting your limits.
             </div>
           </div>
-          <div className="feature__item">
+          <div
+            className="feature__item"
+            data-sal="slide-up"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
             <div className="feature__icon">
               <img src={Icon3} alt="banking"></img>
             </div>
@@ -72,7 +121,13 @@ const IndexPage = () => (
               start taking control of your finances right away.
             </div>
           </div>
-          <div className="feature__item">
+          <div
+            className="feature__item"
+            data-sal="slide-up"
+            data-sal-delay="700"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
             <div className="feature__icon">
               <img src={Icon4} alt="banking"></img>
             </div>
@@ -88,10 +143,24 @@ const IndexPage = () => (
     <section className="article">
       <div className="container container--pall">
         <div className="article__title">
-          <h2>Latest Articles</h2>
+          <h2
+            data-sal="slide-up"
+            data-sal-delay="0"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
+            Latest Articles
+          </h2>
         </div>
         <div class="article__grid container">
-          <a href="#" class="article__item">
+          <a
+            href="#"
+            class="article__item"
+            data-sal="slide-up"
+            data-sal-delay="100"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+          >
             <div
               class="article__image"
               style={{
@@ -109,7 +178,14 @@ const IndexPage = () => (
               </div>
             </div>
           </a>
-          <a href="#" class="article__item">
+          <a
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+            href="#"
+            class="article__item"
+          >
             <div
               class="article__image"
               style={{
@@ -127,7 +203,14 @@ const IndexPage = () => (
               </div>
             </div>
           </a>
-          <a href="#" class="article__item">
+          <a
+            data-sal="slide-up"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+            href="#"
+            class="article__item"
+          >
             <div
               class="article__image"
               style={{
@@ -145,7 +228,14 @@ const IndexPage = () => (
               </div>
             </div>
           </a>
-          <a href="#" class="article__item">
+          <a
+            data-sal="slide-up"
+            data-sal-delay="700"
+            data-sal-easing="ease"
+            data-sal-duration="800"
+            href="#"
+            class="article__item"
+          >
             <div
               class="article__image"
               style={{
