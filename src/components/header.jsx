@@ -1,18 +1,23 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import BrandLogo from "../images/logo.svg"
 import { Link } from "gatsby"
 
 const Header = () => {
   let [toggleMobileMenu, setMenuToggle] = useState(false)
 
+  useEffect(() => {
+    if (!toggleMobileMenu) {
+      document.body.style.overflowY = "visible"
+    }
+  }, [])
+
   function handleMobileMenuToggle() {
     setMenuToggle(!toggleMobileMenu)
-    handleScrollBarToggle()
-  }
-
-  function handleScrollBarToggle() {
-    if (toggleMobileMenu) document.body.style.overflow = "hidden"
-    else document.body.style.overflow = "auto"
+    if (toggleMobileMenu) {
+      document.body.style.overflowY = "visible"
+    } else {
+      document.body.style.overflowY = "hidden"
+    }
   }
 
   return (
