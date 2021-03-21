@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className={toggleMobileMenu ? "header active" : "header"}>
       <div className="overlay"></div>
-      <nav className="container flex flex-jc-sb flex-ai-c">
+      <nav className="container container--pall flex flex-jc-sb flex-ai-c">
         <Link to="/" className="header__logo">
           <img src={BrandLogo} alt="logo" />
         </Link>
